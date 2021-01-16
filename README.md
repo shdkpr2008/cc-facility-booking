@@ -24,3 +24,25 @@ Input  | Output
 Club House, 2012-10-26, 16:00,22:00   | Booked, Rs. 1000
 Tennis Court, 2012-10-26, 10:00,20:00 | Booked, Rs. 500
 Club House, 2012-10-26, 16:00,22:00   | Booking Failed, Already Booked
+
+
+## Requirements
+PHP 7
+
+## Usage
+
+### Functional Usage
+
+1. Make Facility Object
+2. Make Booking Object
+3. Pass as many facilities for booking using bookFacility function.
+	1. Return value of each objetct will be either ture or false
+	2. Print status and amount based on the return value
+4. Book another Facility using same Booking Object to continue
+
+See index.php for working examples
+
+
+### Command Line Usage
+1. Place quiery line by line and in same format as in input.txt
+2. Open command line interface (terminal) and run command ```php cli.php input.txt```
