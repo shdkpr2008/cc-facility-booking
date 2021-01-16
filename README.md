@@ -1,2 +1,26 @@
-# cc-facility-booking
+# Coding Challenge | Facility Booking
 A coding challenge put forward in an interview, involves facility (operand) and booking (operation) with simple rule.
+
+**Entites:**
+
+1. Facility
+2. User
+3. Amount
+4. Rule
+
+**Entity Description:**
+
+1. An apartment complex can have multiple facilities like Club house, Tennis Court etc.
+2. Residents can book these facilities
+3. Each facility has an amount assigned to it
+4. Assignment Rule
+     1. Slot Based (Club House : 10am to 4pm : 100Rs per hour, 4pm to 10pm : 500Rs per hour)
+     2. A simple multiplier (Tennis Court : Rs.50 per hour )
+
+**Runtime Example:**
+
+Input  | Output
+------------- | -------------
+Club House, 2012-10-26, 16:00,22:00   | Booked, Rs. 1000
+Tennis Court, 2012-10-26, 10:00,20:00 | Booked, Rs. 500
+Club House, 2012-10-26, 16:00,22:00   | Booking Failed, Already Booked
